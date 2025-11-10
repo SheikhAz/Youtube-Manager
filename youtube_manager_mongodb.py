@@ -1,7 +1,6 @@
 # import pymongo   # this method import all the files in pymongo.
 from pymongo import MongoClient  # this method is only import the MongoClient.We only name MongoClient instend of pymongo.MongoClient
 from bson import ObjectId
-from streamlit import video
 
 client = MongoClient(
     # here at the end of the line we right YTmanager is database name.
